@@ -1,0 +1,48 @@
+{
+  meta: {
+    req: {
+      url: '/user/login',
+      headers: {
+        'content-length': '64',
+        'accept-encoding': 'gzip, deflate, br',
+        accept: '*/*',
+        'user-agent': 'Thunder Client (https://www.thunderclient.com)',
+        'content-type': 'application/json',
+        host: 'localhost:8800',
+        connection: 'close'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/user/login',
+      query: {}
+    },
+    res: { statusCode: 404 },
+    responseTime: 5
+  },
+  level: 'info',
+  message: 'HTTP GET /user/login'
+}
+{
+  meta: {
+    req: {
+      url: '/user/login',
+      headers: {
+        'content-length': '64',
+        'accept-encoding': 'gzip, deflate, br',
+        accept: '*/*',
+        'user-agent': 'Thunder Client (https://www.thunderclient.com)',
+        'content-type': 'application/json',
+        host: 'localhost:8800',
+        connection: 'close'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/user/login',
+      query: {}
+    },
+    res: { statusCode: 200 },
+    responseTime: 276
+  },
+  level: 'info',
+  message: 'HTTP POST /user/login'
+}
